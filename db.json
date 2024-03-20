@@ -41,6 +41,72 @@
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
+    },
+    {
+      "name": [
+        "tree"
+      ],
+      "image": [
+        "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQD7SuitTjACxw1J9Py7v27kXoYKgyvD9fKLkYShA7AKyCy9puyBQUS2LyXyHU6SEfUtX493OZbmhs0FEDj0MJOI0qrA82X_g5tuc8AbG6Xi2Hp5oDmDAapeA&usqp=CAE"
+      ],
+      "price": [
+        "0.02"
+      ],
+      "id": 8
+    },
+    {
+      "name": [
+        "lemon tree"
+      ],
+      "image": [
+        "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQD7SuitTjACxw1J9Py7v27kXoYKgyvD9fKLkYShA7AKyCy9puyBQUS2LyXyHU6SEfUtX493OZbmhs0FEDj0MJOI0qrA82X_g5tuc8AbG6Xi2Hp5oDmDAapeA&usqp=CAE"
+      ],
+      "price": [
+        "5.50"
+      ],
+      "id": 9
+    },
+    {
+      "name": [
+        "lemon tree"
+      ],
+      "image": [
+        "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQD7SuitTjACxw1J9Py7v27kXoYKgyvD9fKLkYShA7AKyCy9puyBQUS2LyXyHU6SEfUtX493OZbmhs0FEDj0MJOI0qrA82X_g5tuc8AbG6Xi2Hp5oDmDAapeA&usqp=CAE"
+      ],
+      "price": [
+        "5.50"
+      ],
+      "id": 10
+    },
+    {
+      "name": [
+        "lemon tree"
+      ],
+      "image": [
+        "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQD7SuitTjACxw1J9Py7v27kXoYKgyvD9fKLkYShA7AKyCy9puyBQUS2LyXyHU6SEfUtX493OZbmhs0FEDj0MJOI0qrA82X_g5tuc8AbG6Xi2Hp5oDmDAapeA&usqp=CAE"
+      ],
+      "price": [
+        "5.50"
+      ],
+      "id": 11
+    },
+    {
+      "name": [
+        "venus fly trap"
+      ],
+      "image": [
+        "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRIREiRtt7G47Imo9l24JBbBj1BzQ7nUNAM78YjAbwQDN082j4g4V9i2TKcs0aQPhevcar_cPhtpqWpWfYhhWl_vT9ClgBuVDS0QoqDvvN74byfRuYIV8OFXZ1CqtRAxopZAhf70STZ7xA&usqp=CAc"
+      ],
+      "price": [
+        "20"
+      ],
+      "id": 12
+    },
+    {
+      "name": "Cactus",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRPZB6D96nashgWBkBxZHOygIEXPvPy_YrwEkvTKuTE1CC_WJCP5WIyiAbhfJZFQ6l91qDjB8vEflqLtluVZzz7IF5DQYufsGpgE-Kr6acdpq_OnPc2lNHpW40Lc3N1LnK8lg95X92M&usqp=CAc",
+      "price": "10000.00",
+      "id": 13
     }
   ]
 }
