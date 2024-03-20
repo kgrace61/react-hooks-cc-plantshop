@@ -31,11 +31,15 @@ function PlantPage() {
     return plant.name.toString().toLowerCase().includes(search.toLowerCase());
   });
 
+  const deletePlant =(id) => {
+    const updatedPlants = plants.filter((plant) => plant.id!== id);
+    setPlants(updatedPlants);
+  }
   return (
     <main>
       <NewPlantForm addPlant={addPlant} />
       <Search search={search} updateSearch={updateSearch}/>
-      <PlantList plants={displayedPlants} />
+      <PlantList plants={displayedPlants} deletePlant={deletePlant}/>
     </main>
   );
 }

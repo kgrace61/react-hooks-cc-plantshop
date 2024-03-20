@@ -1,12 +1,6 @@
 import React, { useState } from "react";
 
-//out of stock button
-//click event handler
-//state, update state
-//toggle b/t in stock and sold out 
-
-
-function PlantCard({ plant }) { //takes in item(plant) from PlantList and fills card with correct info
+function PlantCard({ plant, deletePlant }) { 
 
   const [soldOut, setSoldOut] = useState(true)
 
@@ -14,6 +8,19 @@ function PlantCard({ plant }) { //takes in item(plant) from PlantList and fills 
     setSoldOut(prev => !prev)
   }
 
+  const handleDelete = () =>{
+    fetch(`http://localhost:6001/plants/${plant.id}`, {
+      method: 'DELETE'
+    })
+    .then(res => {
+      if(res.ok){
+        return res.json()
+      }else {
+        console.error('error deleting plant')
+      }
+    })
+    .then(() => deletePlant(plant.id))
+  }
 
   return (
     <li className="card" data-testid="plant-item">
@@ -25,7 +32,7 @@ function PlantCard({ plant }) { //takes in item(plant) from PlantList and fills 
       ) : (
         <button onClick={handleClick}>Out of Stock</button>
       )}
-      <button onClick={(e)=> console.log(e)}>Delete</button>
+      <button onClick={() => handleDelete()}>Delete</button>
     </li>
   );
 }

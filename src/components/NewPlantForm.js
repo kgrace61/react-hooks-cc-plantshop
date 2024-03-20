@@ -2,12 +2,12 @@ import React, { useState } from "react";
 
 function NewPlantForm({ addPlant }) {
 
-  const initialForm = { //creates intial empty form
+  const initialForm = { 
     name: "",
     image: "",
     price: 0,
   }
-  const [form, setForm] = useState(initialForm) //sets state for the form
+  const [form, setForm] = useState(initialForm)
 
   const handleChange = (e) => {
     setForm({
