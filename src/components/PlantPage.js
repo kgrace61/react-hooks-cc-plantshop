@@ -32,14 +32,24 @@ function PlantPage() {
   });
 
   const deletePlant =(id) => {
-    const updatedPlants = plants.filter((plant) => plant.id!== id);
+    const updatedPlants = plants.filter((plant) => plant.id !== id);
     setPlants(updatedPlants);
   }
+
+  function updatePlant(updatedPlant) {
+    const newPlants = plants.map((plant) => {
+      return plant.id === updatedPlant.id ? updatedPlant : plant;
+    });
+    setPlants(newPlants);
+  }
+  
+
+
   return (
     <main>
       <NewPlantForm addPlant={addPlant} />
       <Search search={search} updateSearch={updateSearch}/>
-      <PlantList plants={displayedPlants} deletePlant={deletePlant}/>
+      <PlantList plants={displayedPlants} updatePlant={updatePlant} deletePlant={deletePlant}/>
     </main>
   );
 }

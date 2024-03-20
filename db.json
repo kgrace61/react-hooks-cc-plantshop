@@ -4,37 +4,91 @@
       "id": 2,
       "name": "ZZ Plant",
       "image": "./images/zz-plant.jpg",
-      "price": 25.98
+      "price": "26.03"
     },
     {
       "id": 3,
       "name": "Pilea peperomioides",
       "image": "./images/pilea.jpg",
-      "price": 5.99
+      "price": "6.05"
     },
     {
       "id": 4,
       "name": "Pothos",
       "image": "./images/pothos.jpg",
-      "price": 12.11
+      "price": "12.19"
     },
     {
       "id": 5,
       "name": "Jade",
       "image": "./images/jade.jpg",
-      "price": 10.37
+      "price": "10.48"
     },
     {
       "id": 6,
       "name": "Monstera Deliciosa",
       "image": "./images/monstera.jpg",
-      "price": 25.99
+      "price": "26.99"
     },
     {
       "id": 7,
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
+    },
+    {
+      "name": "wildflowers",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQLsoIylXwm3WQKlVMMok2veeHlWR7vj0boJTYrt5_nDG-cucC4zleAkJdbLtT1vbM8YZ0G9zshrPHu-lapXwTLw-YCBfjbtcBIGzjWU072TzSZrYIG8d-GKhlm9YlUhe5iw5WvjgPVxw&usqp=CAc",
+      "price": "0",
+      "id": 8
+    },
+    {
+      "name": "Snapdragons",
+      "image": "https://www.edenbrothers.com/cdn/shop/products/snapdragon-orange-wonder-1.jpg?v=1653494246",
+      "price": "16.99",
+      "id": 9
+    },
+    {
+      "name": "Snake Plant",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRlFvznTCUJtth0boDBPRWCWmpk9VrDkBu2Kdu4prRaXLSM0w6P0fytC4Wm1oI5AySl0-TMPA-BzXW95azMoQsVfl4zqjBVLlU-oCXgEbE&usqp=CAc",
+      "price": "24.99",
+      "id": 10
+    },
+    {
+      "name": "Bird of Paradise",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTdd4xzRdGqwTBzJpulTv1Ovs12kSqQTHjo6sVB1uowx9IfYz1jXT0NqcCXL8S4LRqJ6QEXH52rnVnTNhSHkBAhSkxB9rNKiXFPumS7eoqHKV-Nm7nynnF7-YyIOGEAcn0Wv2bgyHM&usqp=CAc",
+      "price": "34.12",
+      "id": 11
+    },
+    {
+      "name": "Tropical Delight Bromeliad",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTiQ3TxzHjJuSuT8uf_qy6EtwWUTPuR9lNFgwgWuNBcskXgr4Y67j74sUHSWt-OB70vRH8ZBERwpZT2Kex2EuzNSqRY4W90VLXYRstz8_CuA0YXJ1EVl6msyHDCdt9zvjvB7oTdSO6blw&usqp=CAc",
+      "price": "64.99",
+      "id": 12
+    },
+    {
+      "name": "Garden Monkey Face Orchid",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTwKDYdv1Dx7WZN85_5q4-FpbmZzIxy5Unn_aCEOAeBmQ9mSysvCn0rYsJSckadv4d74Aok5QXXdS7gGkI_0uoy_KEc8bBDFjaatY93awU&usqp=CAE",
+      "price": "19.11",
+      "id": 13
+    },
+    {
+      "name": "Bougainvillea",
+      "image": "https://media.officedepot.com/images/f_auto,q_auto,e_sharpen/products/9290902/9290902_o01/9290902",
+      "price": "90",
+      "id": 14
+    },
+    {
+      "name": "Succulent Garden",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQFFJXufZ7U3iX1MQI4gIE8AIZxPhLuv6GYXf50nJ9VJoJk9npE8odqQ8RTIlfz4g3i5TA2Rf0ITivhvp-eSFioKoCvn7vrYiuGbRBM0tL77UrVqs9rqsZ7uQ&usqp=CAE",
+      "price": "14.50",
+      "id": 15
+    },
+    {
+      "name": "Bug Patrol",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcr6E-AL2FTIOZmGKYOcs3sUDHA_CPqVhr3w&usqp=CAU",
+      "price": "5.00",
+      "id": 16
     }
   ]
 }
